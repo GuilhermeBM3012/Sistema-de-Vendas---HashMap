@@ -1,0 +1,7 @@
+package Exception;
+
+public class EnderecoInvalidoException extends RuntimeException {
+    public EnderecoInvalidoException(String mensagem) {
+        super(mensagem);
+    }
+}
